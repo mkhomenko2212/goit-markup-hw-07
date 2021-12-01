@@ -811,7 +811,7 @@ img {
   opacity: 0;
 }
 
-.project__thumb__item:hover .project__thumb {
+.project__item:hover .project__thumb {
   opacity: 1;
   -webkit-transform: translateY(0);
           transform: translateY(0);
