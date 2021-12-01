@@ -8,7 +8,7 @@
 
 :root {
   --primary-text-color: #757575;
-  --tittle-color: #212121;
+  --title-color: #212121;
   --accent-color: #2196f3;
   --primary-background-color: #ffffff;
   --footer-color: #2f303a;
@@ -114,7 +114,7 @@ img {
 .header__link {
   padding-top: 32px;
   padding-bottom: 32px;
-  color: var(--tittle-color);
+  color: var(--title-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header__link:focus,
@@ -192,7 +192,7 @@ img {
   padding-bottom: 200px;
 }
 
-.hero__tittle {
+.hero__title {
   font-family: Roboto, sans-serif;
   color: var(--primary-white-color);
   font-weight: 900;
@@ -251,8 +251,8 @@ img {
   margin-bottom: 106px;
 }
 
-.advantage__tittle {
-  color: var(--tittle-color);
+.advantage__title {
+  color: var(--title-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
@@ -297,8 +297,8 @@ img {
   padding-top: 0;
 }
 
-.product__tittle {
-  color: var(--tittle-color);
+.product__title {
+  color: var(--title-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -354,8 +354,8 @@ img {
 .team__item + .team__item {
   margin-left: 30px;
 }
-.team__tittle {
-  color: var(--tittle-color);
+.team__title {
+  color: var(--title-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -365,7 +365,7 @@ img {
 }
 
 .team__member {
-  color: var(--tittle-color);
+  color: var(--title-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
@@ -434,8 +434,8 @@ img {
 
 /* Клиенты */
 
-.clients__tittle {
-  color: var(--tittle-color);
+.clients__title {
+  color: var(--title-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -520,7 +520,7 @@ img {
   margin-left: 70px;
   margin-right: 93px;
 }
-.footer__social-tittle {
+.footer__social-title {
   color: var(--primary-white-color);
   font-family: Roboto, sans-serif;
   font-weight: bold;
@@ -565,7 +565,7 @@ img {
   height: 20px;
 }
 
-.footer__form-tittle {
+.footer__form-title {
   color: var(--primary-white-color);
   font-family: Roboto, sans-serif;
   font-weight: bold;
@@ -659,7 +659,7 @@ img {
 .filter__button {
   font-weight: 500;
   background-color: var(--secondary-background-color);
-  color: var(--tittle-color);
+  color: var(--title-color);
   font-family: inherit;
 
   cursor: pointer;
@@ -715,7 +715,7 @@ img {
   margin-bottom: 0;
 }
 .project__name {
-  color: var(--tittle-color);
+  color: var(--title-color);
   font-family: Roboto;
   font-weight: 700;
   font-size: 18px;
@@ -841,8 +841,8 @@ img {
   background-color: white;
 }
 
-.modal-tittle {
-  color: var(--tittle-color);
+.modal-title {
+  color: var(--title-color);
   font-family: Roboto, sans-serif;
   font-weight: bold;
   font-size: 20px;
@@ -888,7 +888,7 @@ img {
   height: 18px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  fill: var(--tittle-color);
+  fill: var(--title-color);
 }
 
 .form-input:focus ~ .form-icon {
